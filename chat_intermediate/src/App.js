@@ -41,7 +41,7 @@ function activeThreadIdReducer(state, action) {
 
 function threadsReducer(state, action) {
   if (action.type === 'ADD_MESSAGE') {
-
+    // new message
     const newMessage = {
       text: action.text,
       timestamp: Date.now(),
